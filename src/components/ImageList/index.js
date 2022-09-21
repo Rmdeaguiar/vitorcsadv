@@ -1,7 +1,6 @@
 import './styles.css';
 import Coworking1 from '../../assets/coworking1.jpg'
 import Coworking2 from '../../assets/coworking2.jpg'
-import Coworking3 from '../../assets/coworking3.jpg'
 import Coworking4 from '../../assets/coworking4.jpg'
 import Coworking5 from '../../assets/coworking5.jpg'
 import Coworking6 from '../../assets/coworking6.jpg'
@@ -15,7 +14,7 @@ function ImageList() {
         <div className="container-office">
             <div className="container-images">
                 {images.map((image) => (
-                    <img src={image} />
+                    <img src={image} alt='coworking' />
                 ))}
             </div>
             <div className='about-office'>

@@ -17,8 +17,7 @@ function Header() {
                 </div>
                 <div className="right-down">
                     <a href='#home'>HOME |</a>
-                    <a href='#about'>SOBRE |</a>
-                    <a href="#">CONTATO</a>
+                    <a href='#about'>SOBRE</a>
                 </div>
             </div>
         </div>

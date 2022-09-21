@@ -13,7 +13,7 @@ function Home() {
             <div className="container-home">
                 <div className="container-main">
                     <h2>Ajudo a garantir o seu melhor benefício perante o INSS</h2>
-                    <a target="_blank" href="https://wa.me/557186919230"><img src={WhatsApp} />WhatsApp</a>
+                    <a target="_blank" rel='noreferrer' href="https://wa.me/557186919230"><img src={WhatsApp} alt='whatsapp' />WhatsApp</a>
                 </div>
                 <div className="container-services">
                     <img src={Background} alt="background" />
