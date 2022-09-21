@@ -34,4 +34,12 @@ img {
     .container-office {
         margin-top: 10px;
     }
+
+    .container-images img {
+        width: 40%;
+    }
+
+    .about-office {
+        font-size: 1.1rem;
+    }
 }

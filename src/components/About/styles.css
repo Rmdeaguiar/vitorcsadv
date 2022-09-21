@@ -3,7 +3,7 @@
     justify-content: center;
     padding: 5px;
     width: 90%;
-    height: 450px;
+
     margin-top: 30px;
     border-left: 2px solid rgb(0, 47, 88);
 }
@@ -29,8 +29,8 @@
 
 .about-content p {
     width: 90%;
-    line-height: 35px;
-    font-size: 1.6rem;
+    line-height: 45px;
+    font-size: 1.8rem;
 }
 
 .line {
@@ -52,11 +52,15 @@
 @media (max-width: 500px) {
 
     .container-about {
-        padding: 5px;
+        padding: 10px;
         width: 100%;
         border: none;
         margin-top: 0px;
         margin-bottom: 10px;
+    }
+
+    .about-content {
+        width: 50%;
     }
 
 
@@ -66,7 +70,7 @@
 
     .about-content p {
         width: 95%;
-        line-height: 22px;
+        line-height: 16px;
         font-size: 0.9rem;
     }
 
@@ -78,12 +82,14 @@
     }
 
     .about-image {
-        padding: 15px;
+        width: 50%;
+        padding: 10px;
     }
 
 
     .about-image img {
         width: 100%;
+        height: 100%;
     }
 
 }
