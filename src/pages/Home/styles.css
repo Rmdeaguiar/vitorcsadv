@@ -68,7 +68,7 @@
 .container-services img {
     position: absolute;
     top: 0px;
-    max-height: 320px;
+    height: 100%;
     width: 100%;
     opacity: 0.2;
 }
@@ -92,7 +92,7 @@
     align-items: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
 
     .container-main {
         height: 110px;
@@ -136,7 +136,7 @@
     }
 
     .container-services img {
-        height: 160px;
+        height: 100%;
         opacity: 0.15;
     }
 

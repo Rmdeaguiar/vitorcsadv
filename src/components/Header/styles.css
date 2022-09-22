@@ -62,18 +62,14 @@
     transform: scale(1.1)
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
 
     .container-header {
-        padding: 8px;
-    }
-
-    .main-left {
-        width: 40%;
+        padding: 5px;
     }
 
     .main-left img {
-        width: 150px;
+        width: 120px;
     }
 
     .main-left h3 {
