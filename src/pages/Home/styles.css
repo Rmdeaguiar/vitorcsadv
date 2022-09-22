@@ -21,6 +21,7 @@
 
 .container-main h2 {
     font-size: 2.8rem;
+    text-align: center;
 }
 
 .container-main a {
@@ -28,7 +29,7 @@
     cursor: pointer;
     padding: 5px 0px;
     border-radius: 20px;
-    border: 2px solid rgb(5, 186, 5);
+    border: 1px solid rgb(5, 186, 5);
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -67,10 +68,10 @@
 
 .container-services img {
     position: absolute;
-    top: 0px;
+    top: -6px;
     height: 100%;
     width: 100%;
-    opacity: 0.2;
+    opacity: 0.15;
 }
 
 .services {
@@ -97,16 +98,15 @@
     .container-main {
         height: 110px;
         margin-bottom: 0px;
-        padding: 5px;
+        padding: 10px;
     }
 
     .container-main h2 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     .container-main a {
         font-size: 1.1rem;
-        font-weight: bold;
         width: 45%;
         padding-top: 5px;
         padding-bottom: 5px;
@@ -121,7 +121,7 @@
 
     .container-main span {
         margin-top: 6px;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         margin-bottom: 5px;
     }
 
@@ -138,6 +138,7 @@
     .container-services img {
         height: 100%;
         opacity: 0.15;
+        top: -1px;
     }
 
 
