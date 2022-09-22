@@ -32,11 +32,16 @@
     align-items: center;
 }
 
-.right-footer a {
+.right-footer h4 {
     all: unset;
     margin-left: 5px;
     cursor: pointer;
     font-weight: bold;
+}
+
+.right-footer h4:hover {
+    color: rgb(0, 0, 146);
+    transform: scale(1.1);
 }
 
 @media (max-width: 500px) {

@@ -6,8 +6,11 @@ import Footer from '../../components/Footer'
 import ImageList from '../../components/ImageList'
 import WhatsApp from '../../assets/whatsapp.png'
 
+
 function Home() {
+
     const services = ['Planejamento de aposentadoria', 'Aposentadorias', 'Aposentadoria por invalidez', 'Auxílio-doença', 'Auxílio-acidente', 'Pensão por morte', 'Auxílio Reclusão', 'Benefício Assistencial ao idoso e pessoa com deficiência - LOAS']
+
     return (
         <>
             <Header />

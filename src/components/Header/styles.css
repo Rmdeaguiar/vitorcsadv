@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
     margin-left: 12px;
 }
 
@@ -20,6 +21,7 @@
 
 .main-left h3 {
     font-weight: lighter;
+    font-size: 1.2rem;
 }
 
 .main-right {
@@ -48,17 +50,22 @@
     margin-right: 5px;
 }
 
-.right-down a {
+.right-down h4 {
     all: unset;
     margin-left: 5px;
     cursor: pointer;
     font-weight: bold;
 }
 
+.right-down h4:hover {
+    color: rgb(0, 0, 146);
+    transform: scale(1.1)
+}
+
 @media (max-width: 500px) {
 
     .container-header {
-        padding: 8Px;
+        padding: 8px;
     }
 
     .main-left {
@@ -70,10 +77,11 @@
     }
 
     .main-left h3 {
-        font-size: 0.65rem;
+        font-size: 0.6rem;
         display: flex;
         justify-content: center;
         align-items: center;
+        font-weight: bold;
     }
 
     .right-top {
