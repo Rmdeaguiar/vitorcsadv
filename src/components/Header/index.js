@@ -8,7 +8,7 @@ function Header() {
     const navigate = useNavigate();
 
     return (
-        <div id="home" className="container-header">
+        <div className="container-header">
             <div className="main-left">
                 <img src={Card} alt="cartao" />
                 <h3>ADVOGADO | TRABALHISTA | PREVIDENCIÁRIO</h3>
