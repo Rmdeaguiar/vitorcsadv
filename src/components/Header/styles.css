@@ -50,7 +50,7 @@
 
 .right-down a {
     all: unset;
-    margin-left: 10px;
+    margin-left: 5px;
     cursor: pointer;
     font-weight: bold;
 }
@@ -70,7 +70,7 @@
     }
 
     .main-left h3 {
-        font-size: 6px;
+        font-size: 0.65rem;
         display: flex;
         justify-content: center;
         align-items: center;

@@ -19,7 +19,7 @@ function ImageList() {
             </div>
             <div className='about-office'>
                 <h3>Sobre o escritório</h3>
-                <p>Escritório localizado na Av. Tancredo Neves, novo centro comercial da Salvador, com estrutura necessária para um melhor atendimento aos clientes. Vamos tomar um café?! Marque sua visita!</p>
+                <p>Escritório localizado na <b>Av. Tancredo Neves, 2539, Edf. CEO Salvador Shopping, Torre Londres, sala 902</b>, novo centro comercial da Salvador, com uma estrutura necessária para um melhor atendimento aos clientes. Vamos tomar um café?! Marque sua visita!</p>
             </div>
         </div>
     );

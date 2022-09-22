@@ -2,6 +2,7 @@ import './styles.css';
 import Background from '../../assets/background.png'
 import Header from '../../components/Header'
 import About from '../../components/About'
+import Footer from '../../components/Footer'
 import ImageList from '../../components/ImageList'
 import WhatsApp from '../../assets/whatsapp.png'
 
@@ -12,8 +13,9 @@ function Home() {
             <Header />
             <div className="container-home">
                 <div className="container-main">
-                    <h2>Ajudo a garantir o seu melhor benefício perante o INSS</h2>
-                    <a target="_blank" rel='noreferrer' href="https://wa.me/557186919230"><img src={WhatsApp} alt='whatsapp' />WhatsApp</a>
+                    <h2>Ajudo você a garantir o seu melhor benefício perante o INSS</h2>
+                    <a target="_blank" rel='noreferrer' href="https://wa.me/557186919230"><img src={WhatsApp} alt='whatsapp' />Clique para falar conosco</a>
+                    <span>ATUAÇÃO EM TODO O BRASIL</span>
                 </div>
                 <div className="container-services">
                     <img src={Background} alt="background" />
@@ -29,6 +31,7 @@ function Home() {
                 </div>
                 <ImageList />
             </div>
+            <Footer />
         </>
 
     );
