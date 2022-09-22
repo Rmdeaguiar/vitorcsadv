@@ -15,7 +15,7 @@
 
 .left-footer h4 {
     display: flex;
-    margin-left: 20px;
+
     font-weight: 400;
     margin-bottom: 5px;
 }
@@ -24,6 +24,18 @@
     width: 20px;
     height: 20px;
     margin-right: 5px;
+}
+
+
+.social-media {
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+.social-media h4 {
+    font-weight: 700;
+    margin-right: 8px;
 }
 
 .right-footer {
@@ -47,7 +59,8 @@
 @media (max-width: 800px) {
 
     .container-footer {
-        padding: 8px 8px 0px 0px;
+        padding: 8px;
+
     }
 
     .left-footer {
@@ -61,13 +74,20 @@
         font-size: 1rem;
     }
 
+    .left-footer span {
+        font-size: 1rem;
+        width: 80%;
+    }
+
     .left-footer img {
         width: 0.9rem;
         height: 0.9rem;
     }
 
     .right-footer {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
+        display: flex;
+        width: 40%;
     }
 
 }

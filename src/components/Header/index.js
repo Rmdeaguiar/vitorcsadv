@@ -15,8 +15,11 @@ function Header() {
             </div>
             <div className="main-right">
                 <div className="right-top">
-                    <h4><img src={Phone} alt='telefone' />{'Ligue agora: (71)98691-9230'}</h4>
-                    <h4><img src={Email} alt='email' />E-mail: contato@vitorsilveiraadv.com.br</h4>
+                    <div className='social-media'>
+                        <h4><img src={Phone} alt='telefone' />{'Ligue agora: (71)98691-9230'}</h4>
+                        <h4><img src={Email} alt='email' />E-mail: contato@vitorsilveiraadv.com.br</h4>
+                    </div>
+                    <h4 className='address'>Av. Tancredo Neves, 2539, Edf. CEO Salvador Shopping, Torre Londres, sala 902</h4>
                 </div>
                 <div className="right-down">
                     <h4 onClick={() => navigate('/')}>HOME |</h4>

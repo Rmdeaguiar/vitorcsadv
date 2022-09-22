@@ -10,8 +10,11 @@ function Header() {
     return (
         <div id="home" className="container-footer">
             <div className="left-footer">
-                <h4><img src={Phone} alt='telefone' />{'Ligue agora: (71)98691-9230'}</h4>
-                <h4><img src={Email} alt='email' />E-mail: contato@vitorsilveiraadv.com.br</h4>
+                <div className='social-media'>
+                    <h4><img src={Phone} alt='telefone' />{'Ligue agora: (71)98691-9230'}</h4>
+                    <h4><img src={Email} alt='email' />E-mail: contato@vitorsilveiraadv.com.br</h4>
+                </div>
+                <span>Av. Tancredo Neves, 2539, Edf. CEO Salvador Shopping, Torre Londres, sala 902</span>
             </div>
             <div className="right-footer">
                 <h4 onClick={() => navigate('/')}>HOME |</h4>
