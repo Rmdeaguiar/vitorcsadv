@@ -39,6 +39,7 @@
 
 .right-top {
     flex-direction: column;
+    align-items: flex-end;
 }
 
 
@@ -102,10 +103,9 @@
         text-align: end;
     }
 
-    .right-top h4 {
-        text-align: end;
+    .container-header .social-media {
+        align-items: flex-end;
     }
-
 
     .social-media {
         flex-direction: column;

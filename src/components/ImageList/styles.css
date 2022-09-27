@@ -25,8 +25,11 @@ img {
 .about-office {
     width: 85%;
     border-left: 1px solid lightgray;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin: 10px;
+}
+
+.about-office h3 {
+    font-family: 'Playfair Display', serif;
 }
 
 @media (max-width: 800px) {
