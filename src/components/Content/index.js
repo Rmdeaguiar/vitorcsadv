@@ -1,18 +1,13 @@
 import './styles.css';
 
-
 function Content({ article, setArticle }) {
-
-    function backArticles() {
-        setArticle({ show: false })
-    }
 
     return (
         <div className="container-content">
             <div className='content-top-area'>
                 <div></div>
                 <h1>{article.title}</h1>
-                <button onClick={() => backArticles()}>Voltar para Artigos</button>
+                <button onClick={() => setArticle(false)}>Voltar para Artigos</button>
             </div>
             {article.id === 1 && <>
                 <p>Com a reforma da previdência foram criadas diversas regras para a concessão de aposentadorias. Além da nova modalidade, denominada aposentadoria programada, que substituiu as antigas aposentadorias por idade e por tempo de contribuição, foram criadas cinco regras de transição, para os segurados que já estavam contribuindo para a previdência social ao momento do inicio da vigência da reforma.</p>
@@ -51,18 +46,9 @@ function Content({ article, setArticle }) {
                 <p>Deve ser pago um pedágio de 100% do tempo de contribuição que faltava para o homem completar 35 anos de contribuição e a mulher 30 anos de contribuição.</p>
                 <p><b>É importante ter em mente também que as regras de transição têm forma de cálculos que se diferem de umas para as outras, por conta disso é de fundamental importância a ajuda de um advogado para que se entenda de fato qual seria a regra mais vantajosa para o segurado.</b></p>
             </>}
+
         </div>
     );
 }
 
 export default Content;
-
-
-
-
-
-//
-//
-//
-
-// 
