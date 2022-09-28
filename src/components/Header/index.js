@@ -4,6 +4,7 @@ import Email from '../../assets/email.png'
 import Phone from '../../assets/phone.png'
 import { useNavigate } from 'react-router-dom';
 
+
 function Header({ setArticle }) {
     const navigate = useNavigate();
 
