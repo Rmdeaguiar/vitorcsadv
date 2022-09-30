@@ -17,7 +17,7 @@ function Header({ setArticle }) {
         <div className="container-header">
             <div className="main-left">
                 <img src={Card} alt="cartao" />
-                <h3>ADVOGADO | TRABALHISTA | PREVIDENCIÁRIO</h3>
+                <h4>ADVOGADO | TRABALHISTA | PREVIDENCIÁRIO</h4>
             </div>
             <div className="main-right">
                 <div className="right-top">

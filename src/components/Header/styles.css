@@ -11,15 +11,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
-    margin-left: 12px;
+    margin-left: 8px;
+    width: 25%;
 }
 
 .main-left img {
     width: 300px;
 }
 
-.main-left h3 {
+.main-left h4 {
     font-weight: lighter;
     font-size: 1.2rem;
 }
@@ -76,22 +76,27 @@
     transform: scale(1.1)
 }
 
-@media (max-width: 800px) {
+@media (max-width: 750px) {
 
     .container-header {
-        padding: 8px;
+        padding: 5px;
+    }
 
+    .main-right {
+        width: 50%;
+    }
+
+    .main-left {
+        width: 50%;
+        margin-left: 0px;
     }
 
     .main-left img {
-        width: 130px;
+        width: 120px;
     }
 
-    .main-left h3 {
-        font-size: 0.5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .main-left h4 {
+        font-size: 0.6rem;
     }
 
     .right-top {

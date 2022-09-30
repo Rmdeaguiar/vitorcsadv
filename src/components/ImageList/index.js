@@ -14,7 +14,7 @@ function ImageList() {
         <div className="container-office">
             <div className="container-images">
                 {images.map((image) => (
-                    <img src={image} alt='coworking' />
+                    <img key={image} src={image} alt='coworking' />
                 ))}
             </div>
             <div className='about-office'>
