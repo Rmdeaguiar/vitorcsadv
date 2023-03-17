@@ -1,5 +1,5 @@
 import './styles.css';
-import Foto from '../../assets/foto.jpeg'
+import Foto from '../../assets/foto.png'
 
 function About() {
     return (
