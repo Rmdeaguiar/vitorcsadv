@@ -18,7 +18,8 @@ function Articles() {
     return (
         <div className='display-page'>
             <Header
-                setArticle={setArticle} />
+                handleArticle={handleArticle} 
+                />
             {!article.show ? <div className='container-articles'>
                 {articles.map((article) => (
                     <div key={article.id} className='article'>

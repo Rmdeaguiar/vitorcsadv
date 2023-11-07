@@ -54,6 +54,7 @@
 .right-footer h4:hover {
     color: rgb(0, 0, 146);
     transform: scale(1.1);
+    transition: all 500ms;
 }
 
 @media (max-width: 800px) {

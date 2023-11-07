@@ -3,6 +3,7 @@ import Card from '../../assets/cartao.png'
 import Email from '../../assets/email.png'
 import Phone from '../../assets/phone.png'
 import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 
 
 function Header({ setArticle }) {

@@ -2,12 +2,16 @@ import './styles.css';
 
 function Content({ article, setArticle }) {
 
+    function handleCloseArticle(){
+        setArticle(false)
+    }
+
     return (
         <div className="container-content">
             <div className='content-top-area'>
                 <div></div>
                 <h1>{article.title}</h1>
-                <button onClick={() => setArticle(false)}>Voltar para Artigos</button>
+                <button onClick={() => handleCloseArticle()}>Voltar para Artigos</button>
             </div>
             {article.id === 1 && <>
                 <p>Com a reforma da previdência foram criadas diversas regras para a concessão de aposentadorias. Além da nova modalidade, denominada aposentadoria programada, que substituiu as antigas aposentadorias por idade e por tempo de contribuição, foram criadas cinco regras de transição, para os segurados que já estavam contribuindo para a previdência social ao momento do inicio da vigência da reforma.</p>
