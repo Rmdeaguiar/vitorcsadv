@@ -21,7 +21,7 @@ function Home() {
                     <span>ATUAÇÃO EM TODO O BRASIL</span>
                 </div>
                 <div className="container-services">
-                    <img src={Background} alt="background" />
+                    <div className='background-services'></div> 
                     <div className='border-container'></div>
                     {services.map((service) => (
                         < div className="services" key={service} >
