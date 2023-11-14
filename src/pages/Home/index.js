@@ -1,5 +1,4 @@
 import './styles.css';
-import Background from '../../assets/background.png'
 import Header from '../../components/Header'
 import About from '../../components/About'
 import Footer from '../../components/Footer'
